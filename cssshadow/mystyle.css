@@ -1,0 +1,200 @@
+/* 
+    Document   : mystyle
+    Created on : 20/01/2013, 05:09:37 PM
+    Author     : willy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@font-face {
+    font-family: 'will';
+    src: url('GrutchShaded-webfont.eot');
+    src: url('GrutchShaded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('GrutchShaded-webfont.woff') format('woff'),
+         url('GrutchShaded-webfont.ttf') format('truetype'),
+         url('GrutchShaded-webfont.svg#GrutchShadedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.container{
+   /* background-image: url("../images/fondo.jpg");*/
+}
+#header{
+     background-image: url("../images/fondoc.jpg");
+    background: url("../images/logo2.png") no-repeat 10% center,
+				url("../images/fondoc.jpg");
+    background-size: 74px, auto ;
+	margin: 0 0 0 0;
+	padding: 0.5em 0;
+	width: 100%;
+}
+.header-ie678
+{
+   background: url(../images/logo2.png) top right no-repeat;
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='comilla1.png', sizingMethod='crop'); 
+   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/fondoc.jpg', sizingMethod='crop')"; 
+}
+#header h1
+{
+    margin: 0px 0px;
+    font-family: "will";
+    font-size: 3.2em;
+    text-shadow: rgba(255,255,255,0.8) 5px 5px 10px;
+}
+#header span
+{   
+        color: #EEE;
+	margin: 0;
+	font-weight: normal;
+	text-shadow: rgba(255,255,255,255.75) 2px 2px 5px;
+}
+header{
+    background-color: green;
+    background-image: url("../images/fondoc.jpg");
+    background: url("../images/logo2.png") no-repeat 10% center,
+				url("../images/fondoc.jpg");
+    background-size: 74px, auto ;
+	margin: 0 0 0 0;
+	padding: 0.5em 0;
+	width: 100%;
+}
+
+header h1
+{
+    margin: 0px 0px;
+    font-family: "will";
+    font-size: 3.2em;
+    text-shadow: rgba(255,255,255,0.8) 5px 5px 10px;
+}
+header h2
+{
+	margin: 0;
+	font-weight: normal;
+	text-shadow: rgba(0,0,0,0.75) 2px 2px 5px;
+}
+
+footer{
+     background-image: url("../images/fondoc.jpg");
+    background: url("../images/") no-repeat 98% center,
+				url("../images/fondoc.jpg");
+    background-size: 74px, auto ;
+    margin: 0 0 0 0;
+    padding: 0.5em 0;
+    width: 100%;
+}
+#sequence-theme{
+   font-family: 'Open Sans';
+   background:    url("../images/bg-fondo.jpg");
+   background-size: 500px, auto ;
+   
+}
+
+.login{
+ background:    url("../images/fondobody2.jpg");
+ background-size: 470px auto;
+ border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	margin: 0 2% 6em 1em;
+	padding: 1em;
+	transition: all 0.5s ease;
+}
+#calidad
+{
+	background: white;
+	color: #222;
+	text-align: left;
+	width: 40%;
+}
+#calidad, #inicio
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#inicio{
+        background: rgba(255,255,255,255.6);
+	border-radius: 0.5em;
+	box-shadow: rgba(29, 122, 40, 0.9) 5px 5px 10px;
+	margin: 0 2% 2em 1em;
+	padding: 1em;
+	text-align: justify;
+	text-shadow: rgba(0,0,0,0.2) 2px 2px 5px;
+	transition: all 0.5s ease;
+	width: 40%;
+}
+
+.blue{
+    color: #174D5C;
+    font-weight: bold;
+}
+#right{
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    
+}
+
+#ex3 {
+ width: 730px;
+height: 100px; 
+line-height: 0px;
+color: transparent; 
+font-size: 50px; 
+font-weight: 300; 
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease; 
+-o-transition: all 0.5s ease; 
+    position:relative;
+    progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000', endColorstr='#000');
+   -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000', endColorstr='#000');
+}
+
+
+ #ex3:hover
+  { 
+  	line-height: 30px;
+  	color: #0088CC;
+        position:relative;
+  }
+  #ex3 img
+  { 
+  	float: left;
+  	margin: 0 15px;
+        border-radius: 45% / 20%; /* Borde redondeado */
+        box-shadow: 0px 0px 15px #000; /* Sombra */
+        padding:0;
+        -moz-transition: all 1s;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+   }
+
+   
+
+#ex3 .textoo 
+{
+    background: rgba(0,0,0,0.5);
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    left:14px;
+    position:absolute;
+    width:70%;
+
+}
+
+
+#ex3 img:hover {
+border-radius: 0; /* Con esto eliminamos el borde redondeado */
+-moz-transition: all 1s;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+cursor:pointer;
+}
+
+.datosC{
+    text-align: justify
+}
+
+#escuela
+{
+	width: 40%;
+}
